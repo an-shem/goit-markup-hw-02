@@ -1,0 +1,99 @@
+:root {
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+  --hero-title-color: #ffffff;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+}
+/* font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif; */
+
+/* ======= COMMON ======= */
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: var(--title-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+
+/* ======= END COMMON ======= */
+
+/* ======= LOGO ======= */
+.nav-logo,
+.footer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.nav-logo {
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--hero-title-color);
+}
+/* ======= END LOGO ======= */
+
+/* ======= HEADER ======= */
+.header-nav-link,
+.header-address-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+.header-nav-link {
+  color: var(--title-color);
+}
+.header-address-link {
+  color: var(--text-color);
+}
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--accent-color);
+}
+/* ======= END HEADER ======= */
+
+/* ======= HERO ======= */
+.button-services {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-title-color);
+  background-color: var(--accent-color);
+}
+/* ======= END HERO ======= */
+
+/* ======= FOOTER ======= */
+.address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--footer-address-color);
+}
+.map {
+  color: var(--hero-title-color);
+}
+.footer {
+  background: #2f303a;
+}
+/* ======= END FOOTER ======= */
