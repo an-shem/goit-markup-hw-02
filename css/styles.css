@@ -1,4 +1,6 @@
 :root {
+  --maim-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --title-color: #212121;
   --text-color: #757575;
@@ -10,7 +12,7 @@ font-family: "Roboto", sans-serif; */
 
 /* ======= COMMON ======= */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--maim-font);
   font-style: normal;
   color: var(--title-color);
 }
@@ -35,14 +37,14 @@ a {
   letter-spacing: 0.03em;
 }
 .nav-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   color: #000000;
 }
 .logo-web {
   color: var(--accent-color);
 }
 .footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   color: var(--hero-title-color);
 }
 /* ======= END LOGO ======= */
@@ -91,6 +93,10 @@ a {
   background-color: var(--accent-color);
 }
 /* ======= END HERO ======= */
+
+/* ======= FEATURES ======= */
+
+/* ======= END FEATURES ======= */
 
 /* ======= FOOTER ======= */
 .address-link {
