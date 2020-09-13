@@ -95,8 +95,56 @@ a {
 /* ======= END HERO ======= */
 
 /* ======= FEATURES ======= */
-
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
 /* ======= END FEATURES ======= */
+
+/* ======= SERVICES ======= */
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ======= END SERVICES ======= */
+
+/* ======= COMMAND ======= */
+.command-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.command-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+.command-item-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ======= END COMMAND ======= */
 
 /* ======= FOOTER ======= */
 .address-link {
